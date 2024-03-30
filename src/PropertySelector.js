@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './PropertySelector.css'; // Assume we have a CSS file for styling
 
 const initialProperties = {
-    Cheap: ['States Ave', 'Virginia Ave', 'St. James Place', 'Tennessee Ave', 'New York Ave', 'St. Charles Place', 'States Ave', 'Virginia Ave', 'St. James Place', 'Tennessee Ave'],
-    Medium: ['Kentucky Ave', 'Indiana Ave', 'Illinois Ave', 'Atlantic Ave', 'Ventnor Ave', 'Marvin Gardens', 'Kentucky Ave', 'Indiana Ave', 'Illinois Ave', 'Atlantic Ave', 'Ventnor Ave'],
+    Cheap: ['States Ave', 'Virginia Ave', 'New York Ave', 'St. Charles Place', 'St. James Place', 'Tennessee Ave'],
+    Medium: ['Indiana Ave', 'Ventnor Ave', 'Marvin Gardens', 'Kentucky Ave', 'Illinois Ave', 'Atlantic Ave'],
     Hot: ['Pacific Ave', 'North Carolina Ave', 'Pennsylvania Ave', 'Park Place', 'Board Walk']
 };
 
