@@ -1,16 +1,75 @@
+.sticky-top {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.player-setup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.player-input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.styled-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.styled-button:hover {
+  background-color: #0056b3;
+}
+
+.start-game-button {
+  background-color: #28a745;
+}
+
+.start-game-button:hover {
+  background-color: #218838;
+}
+
+.category-buttons button.styled-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.category-buttons button.styled-button:hover {
+  background-color: #0056b3;
+}
+
 .game-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-}
-
-.player-setup {
-  margin-bottom: 20px;
-}
-
-.category-buttons button {
-  margin-right: 10px;
 }
 
 .properties-display {
@@ -21,8 +80,27 @@
 
 .available-properties, .players-properties {
   flex: 1;
+  margin: 10px;
+  padding: 10px;
 }
 
-ul {
-  list-style-type: none;
+.property-card {
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.property-card h3 {
+  margin-top: 0;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.property-card p {
+  margin: 5px 0;
+  color: #666;
 }
